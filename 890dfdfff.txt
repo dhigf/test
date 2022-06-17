@@ -1,0 +1,46 @@
+https://upload.wikimedia.org/wikipedia/commons/0/0e/Felis_silvestris_silvestris.jpg
+
+https://cs11.pikabu.ru/post_img/big/2019/05/17/11/1558121520125719903.jpg
+
+https://static.wikia.nocookie.net/counterstrike/images/3/3c/Cs_1.6_background.png/revision/latest?cb=20140922174445&path-prefix=ru
+
+var myImage = document.querySelector('img');
+
+myImage.onlick = function() {
+    var mySrc = myimage.getAttrbute('src');
+    if(mySrc === 'images/trolololo.gif') {
+        myImage.setAttribute ('src','images/4c0329906f10ed0418d2da9e33d82a84.jpg');
+    } else {
+        myImage.setattribute ('src','images/trolololo.gif');
+    }
+}
+var myButton = document.querySelector('button');
+var myHeading = document.querySelector('h1');
+function setUserName() {
+    var myName = prompt('введите своё имя');
+    localStorage.setItem('name', myName);
+    myHeading.textcontent = 'добро пожаловать ' + myName;
+}
+if(!localStorage.getItem('name')) {
+    setUaerName();
+} else {
+    var storedName = localStorage.getItem('name');
+    myHeading.textcontent = 'привет ' + storedName;
+}
+myButton.onclick = function() {
+    setUserName();
+}
+
+
+МИНИМАЛЬНЫЕ:
+ОС: Windows 7/8.1/10 (64-bit versions)
+Процессор: Intel Core i5-2400/AMD FX-8320 or better
+Оперативная память: 8 GB ОЗУ
+Видеокарта: NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better
+DirectX: Версии 10
+Место на диске: 60 GB
+Дополнительно: Requires broadband internet connection for multiplayer
+
+ark survival evolved
+раздача
+17.06.2022
